@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: 'regular';
+    src: url(../Fonts/Rubik-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'semibold';
+    src: url(../Fonts/Rubik-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: 'bold';
+    src: url(../Fonts/Rubik-Bold.ttf);
+  }
+
+.container{
+    width: 100%;
+    margin:40px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px auto;
+
+    span {
+      font-size: 30px;
+      margin: auto 20px;
+      padding-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 25px;
+      text-transform: uppercase;
+      font-family: 'bold';
+    }
+  }
+
+$primaryColor:#0d124d;  
+$secondryColor:#fff;  
+$thirdColor:#8a0e33;  
+$forthColor:#000;
+$fifthColor:rgb(175, 175, 175);
+$sixthColor:#EEEEEE;
